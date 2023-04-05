@@ -11,6 +11,10 @@
     margin-bottom: 3rem;
 }
 
+.Main_header H3{
+    font-weight: 400;
+}
+
 .Main_content{
     display: flex;
     flex-wrap: wrap ;
