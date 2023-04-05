@@ -1,0 +1,44 @@
+.Hero{
+    height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.left_hero{
+    width: 60%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.right_hero{
+    width: 40%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.yoga_pic{
+    max-height: 200px;
+    max-width: 200px;
+}
+
+
+.hero_button button{
+    margin-top: 2rem;
+    transition: 350ms;
+}
+
+.hero_button button:hover{
+    transform: scale(0.95);
+}

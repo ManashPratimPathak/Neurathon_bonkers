@@ -1,0 +1,15 @@
+.yoga_card{
+    width: 15rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px white;
+    border-radius: 8px;
+    transition: 350ms;
+}
+
+.yoga_card:hover{
+    transform: scale(0.95);
+}
