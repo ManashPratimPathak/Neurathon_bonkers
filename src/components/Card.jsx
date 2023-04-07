@@ -4,7 +4,7 @@ import {Link} from "react-router-dom"
 
 function YogaCard(props) {
   return (
-   <Link to={`/${props.id}`}> <div className='yoga_card'>{props.name}</div></Link>
+   <Link to={`/${props.route}`}> <div key={props.id} className='yoga_card'>{props.name}</div></Link>
   )
 }
 
