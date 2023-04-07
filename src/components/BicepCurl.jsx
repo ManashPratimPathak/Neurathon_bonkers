@@ -1,6 +1,7 @@
 import React from 'react'
 import data from "./../data/yoga.json"
 import "./../assets/styles/excercise.css"
+import Display from './Display'
 
 function BicepCurl() {
   return (

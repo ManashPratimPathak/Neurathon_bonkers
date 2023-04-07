@@ -8,6 +8,11 @@
     text-align: center;
 }
 
+.excercise_Header h3{
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
 .excercise_content{
     min-height: 25rem;
     margin-top: 3rem !important;
@@ -15,7 +20,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -24,9 +29,16 @@
     border: solid 1px white;
     border-radius: 8px;
     text-align: left;
-    width: 50%;
+    width: 45%;
+    margin: 0 auto;
 }
 
 .excercise_right_content{
-    width: 50%;
+    position: relative;
+    width: 45%;
+    height: 100%;
+    padding: 1rem;
+    border: solid 1px white;
+    border-radius: 8px;
+    margin: 0 auto;
 }

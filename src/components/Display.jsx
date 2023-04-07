@@ -12,8 +12,8 @@ function Display() {
     //  Load posenet
     const runPosenet = async () => {
       const net = await posenet.load({
-        inputResolution: { width: 640, height: 480 },
-        scale: 0.8,
+        inputResolution: { width: 500, height: 400 },
+        scale: 0.5,
       });
       //
       setInterval(() => {
@@ -68,8 +68,9 @@ function Display() {
           right: "0",
           textAlign: "center",
           zindex: "9",
-          width: "640px",
-          height: "480px"
+          width: "500px",
+          height: "400px",
+          "borderRadius": "16px"
         }}
       />
       <canvas 
@@ -82,8 +83,9 @@ function Display() {
           right: "0",
           textAlign: "center",
           zindex: "9",
-          width: "640px",
-          height: "480px"
+          width: "500px",
+          height: "400px",
+          "borderRadius": "8px"
         }}
       />
 

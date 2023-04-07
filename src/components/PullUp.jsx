@@ -1,6 +1,7 @@
 import React from 'react';
 import data from "./../data/yoga.json"
 import "./../assets/styles/excercise.css"
+import Display from './Display'
 
 function PullUp() {
   return (
@@ -16,7 +17,7 @@ function PullUp() {
             })}
           </ul>
         </div>
-        <div className="excercise_right_content">{/* <Display /> */}</div>
+        <div className="excercise_right_content"><Display /></div>
       </div>
     </div>
   )
