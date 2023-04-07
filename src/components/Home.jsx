@@ -11,7 +11,7 @@ function Home() {
                     <h1>YoGAI.io</h1>
                     <p>Ready to improve your yoga practice? Our web app provides real-time feedback and guidance on your yoga poses. Whether you're a beginner or an experienced yogi, our app is the perfect tool to help you achieve your goals</p>
                     <div className='hero_button'>
-                    <a href='/Main'>
+                    <a href='/Menu'>
                         <button>Let's start</button>
                     </a>
                     </div>

@@ -1,9 +1,10 @@
 import React from 'react'
 import './../assets/styles/yogaCard.css'
+import {Link} from "react-router-dom"
 
 function YogaCard(props) {
   return (
-    <div className='yoga_card'>{props.name}</div>
+   <Link to={`/${props.id}`}> <div className='yoga_card'>{props.name}</div></Link>
   )
 }
 

@@ -1,16 +1,16 @@
 import React from 'react'
 import YogaCard from './YogaCard';
-import './../assets/styles/main.css'
+import './../assets/styles/menu.css'
 
 const yoga = ["tree","chair", "cobra"];
 
-function Main() {
+function Menu() {
   return (
-    <div className='Main_page'>
-      <div className='Main_header'>
+    <div className='Menu_page'>
+      <div className='Menu_header'>
         <h3>Select an Yoga</h3>
       </div>
-      <div className='Main_content'>
+      <div className='Menu_content'>
         {yoga.map((item)=>{
           return <YogaCard name={item}/>
         })}
@@ -19,4 +19,4 @@ function Main() {
   )
 }
 
-export default Main
+export default Menu

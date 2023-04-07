@@ -1,4 +1,4 @@
-.Main_page{
+.Menu_page{
     height: 100vh;
     width: 100%;
     display: flex;
@@ -7,15 +7,15 @@
     text-align: center;
 }
 
-.Main_header{
+.Menu_header{
     margin-bottom: 3rem;
 }
 
-.Main_header H3{
+.Menu_header H3{
     font-weight: 400;
 }
 
-.Main_content{
+.Menu_content{
     display: flex;
     flex-wrap: wrap ;
     gap: 1rem;
