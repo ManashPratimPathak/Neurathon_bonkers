@@ -3,6 +3,8 @@ import data from "./../data/yoga.json"
 import "./../assets/styles/excercise.css"
 import Display from './Display'
 import FilePickerButton from "./filePickerButton";
+import {Link} from "react-router-dom"
+
 
 function PushUp(porps) {
   return (
@@ -32,6 +34,9 @@ function PushUp(porps) {
         </div>
         <div className="excercise_right_content">
           <FilePickerButton />
+          <Link to="/result/pushUp">
+            <button className='sample_button'>See sampled dataset</button>
+          </Link>
         </div>
       </div>
     </div>

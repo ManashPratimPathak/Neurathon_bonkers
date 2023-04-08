@@ -44,6 +44,7 @@
     border-radius: 8px;
     margin: 0 auto;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -51,12 +52,19 @@
 .excercise_left_content::-webkit-scrollbar {
     width: 0.5em;
 }
- 
-/* .excercise_left_content::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-} */
- 
+  
 .excercise_left_content::-webkit-scrollbar-thumb {
   background-color: white;
-  /* outline: 1px solid slategrey; */
+}
+
+.sample_button{
+    background-color: transparent;
+    border: solid 1px white;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    transition: 250ms;
+}
+
+.sample_button:hover{
+    transform: scale(0.95);
 }
