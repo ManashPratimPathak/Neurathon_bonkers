@@ -17,6 +17,39 @@ class Aitrainer:
         if self.angle < 0:
             self.angle += 360
         return int(self.angle)
+    def upsample(self,a,b):
+        
+        l1=len(a)
+        l2=len(b)
+        if l1>l2:
+            y=l1-l2
+            # print(y,l2)
+            x=round(l2/y)
+            # print(x)
+            ans=[]
+            print(b)
+            for i in range(0,l2,x):
+                ans.append([b[i],i])
+            # print(ans)
+            for i in range(y):
+                b.insert(ans[i][1]+i,ans[i][0])
+
+        elif l1<l2:
+            y=l2-l1
+            # print(y,l2)
+            x=round(l1/y)
+            # print(x)
+            ans=[]
+            # print(b)
+            for i in range(0,l1,x):
+                ans.append([a[i],i])
+            # print(ans)
+            for i in range(y):
+                a.insert(ans[i][1]+i,ans[i][0])
+
+
+        return a,b
+    
     def accuracydetection(self):
         mp_drawing = mp.solutions.drawing_utils
         mp_drawing_styles = mp.solutions.drawing_styles
@@ -86,5 +119,30 @@ class Aitrainer:
                 if cv2.waitKey(5) & 0xFF == 27:
                     break
         cap.release()
-bicepcurls=Aitrainer("AiTrainercurls.mp4")
-arr=bicepcurls.accuracydetection()
+
+bicepcurlsTrain=Aitrainer("AiTrainercurls.mp4")
+arr=bicepcurlsTrain.accuracydetection()
+
+bicepcurlsTest=Aitrainer("Bicepcurltest.mp4")
+ans=bicepcurlsTest.accuracydetection()
+
+arr,ans=bicepcurlsTest.upsample(arr,ans)
+from matplotlib import pyplot as plt
+import seaborn as sns
+data1 = cv2.VideoCapture('AiTrainercurls.mp4')
+frames = data1.get(cv2.CAP_PROP_FRAME_COUNT)
+fps = data1.get(cv2.CAP_PROP_FPS)
+l=len(arr)
+# calculate duration of the video
+seconds1 = int(frames / fps)+1
+c1=seconds1/l
+t1=[]
+# v1=c1
+for i in range(0,l):
+    t1.append(c1*i)
+plt.plot(t1, arr, label = "line 1")
+plt.plot(t1, ans, label = "line 2")
+
+
+
+
