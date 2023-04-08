@@ -255,6 +255,11 @@
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
 
+"@mediapipe/tasks-vision@^0.1.0-alpha-8":
+  version "0.1.0-alpha-8"
+  resolved "https://registry.npmjs.org/@mediapipe/tasks-vision/-/tasks-vision-0.1.0-alpha-8.tgz"
+  integrity sha512-7vpxw5hazcAV58lelLwmEXbj+H3JgZ55gmgNJakeON6hMN4/MK5tyfN96QSyrMmSkbH4/u8Eb4ghIEOwwq6+qQ==
+
 "@remix-run/router@1.5.0":
   version "1.5.0"
   resolved "https://registry.npmjs.org/@remix-run/router/-/router-1.5.0.tgz"
