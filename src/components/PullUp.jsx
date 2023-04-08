@@ -2,6 +2,8 @@ import React from 'react';
 import data from "./../data/yoga.json"
 import "./../assets/styles/excercise.css"
 import Display from './Display'
+import FilePickerButton from "./filePickerButton";
+
 
 function PullUp() {
   return (
@@ -28,9 +30,9 @@ function PullUp() {
             })}
           </ul>
         </div>
-        
-        
-        <div className="excercise_right_content"></div>
+        <div className="excercise_right_content">
+          <FilePickerButton />
+        </div>
       </div>
     </div>
   )

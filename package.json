@@ -12,9 +12,11 @@
     "@tensorflow-models/posenet": "^2.2.2",
     "@tensorflow/tfjs": "^4.4.0",
     "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.10.0",
-    "react-webcam": "^7.0.1"
+    "react-webcam": "^7.0.1",
+    "use-file-picker": "^1.6.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",

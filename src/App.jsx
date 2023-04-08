@@ -18,8 +18,6 @@ function App() {
           <Route exact path="/push_up" element={<PushUp />} />
           <Route exact path="/pull_up" element={<PullUp />} />
           <Route exact path="/bicep_curls" element={<BicepCurl/>} />
-
-
         </Routes>
       </BrowserRouter>
     </div>

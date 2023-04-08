@@ -1,4 +1,6 @@
 .yoga_card{
+    color: white;
+    font-weight: 400;
     width: 15rem;
     height: 15rem;
     display: flex;
