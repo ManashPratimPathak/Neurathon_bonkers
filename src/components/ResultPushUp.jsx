@@ -5,8 +5,10 @@ import staticData from "./../data/static.json"
 function ResultPushUp() {
   return (
     <div className='result_section'><Chart2/>
-      <p> {staticData[1].meanDeviation}</p>
-      <p> {staticData[1].accuracy}</p>
+      <div className='result_other_details'>
+        <p>Mean Deviation: {staticData[1].meanDeviation}</p>
+        <p>Accuracy: {staticData[1].accuracy}</p>
+      </div>
     </div>
   )
 }

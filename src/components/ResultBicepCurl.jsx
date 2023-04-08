@@ -7,8 +7,10 @@ function ResultBicepCurl() {
   return (
     <div className='result_section'>
       <Chart/>
-      <p> {staticData[0].meanDeviation}</p>
-      <p> {staticData[0].accuracy}</p>
+      <div className='result_other_details'>
+        <p>Mean Deviation {staticData[0].meanDeviation}</p>
+        <p>Accuracy {staticData[0].accuracy}</p>
+      </div>
     </div>
   )
 }

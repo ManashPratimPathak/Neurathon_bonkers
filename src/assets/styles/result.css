@@ -6,3 +6,11 @@
     justify-content: center;
     align-items: center;
 }
+
+.result_other_details{
+    margin-top: 3rem;
+    text-align: left;
+    border-radius: 8px;
+    border: solid 1px white;
+    padding: 1rem;
+}
