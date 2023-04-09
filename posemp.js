@@ -16,20 +16,32 @@ function zColor(data) {
 }
 
 function onResultsPose(results) {
-    // console.log('Pose Results', results.poseLandmarks[0]);
-    // var p1 = results.poseLandmarks[12]
-    // var p2 = results.poseLandmarks[24]
-    // var p3 = results.poseLandmarks[26]
-    // var p4 = results.poseLandmarks[28]
-    // console.log(p1.x)
-    // //check p1, p2 , p3 and p4 are in straight line
-    // //slope of point p1 and p4
-    // var slope1 = (p1.y - p4.y) / (p1.x - p4.x)
-    // //slope of point p2 and p3
-    // var slope2 = (p2.y - p3.y) / (p2.x - p3.x)
-    // //angle between two slope
-    // var angle = Math.atan((slope2 - slope1) / (1 + slope1 * slope2)) * 180 / Math.PI
-    // console.log(angle)
+    console.log('Pose Results', results.poseLandmarks[0]);
+    var p1 = results.poseLandmarks[12]
+    var p2 = results.poseLandmarks[24]
+    var p3 = results.poseLandmarks[26]
+    var p4 = results.poseLandmarks[28]
+    console.log(p1.x)
+    //check p1, p2 , p3 and p4 are in straight line
+    //slope of point p1 and p4
+    var slope1 = (p1.y - p4.y) / (p1.x - p4.x)
+    //slope of point p2 and p3
+    var slope2 = (p2.y - p3.y) / (p2.x - p3.x)
+    //angle between two slope
+    var angle = Math.atan((slope2 - slope1) / (1 + slope1 * slope2)) * 180 / Math.PI
+    console.log(angle)
+
+    var text = ""
+    if (angle > 0 && angle < 10) {
+        console.log("good going")
+        text = "good going"
+    } else {
+        console.log("Maintain your body posture the posture")
+        text = "Maintain your body posture the posture"
+    }
+
+    //add text to inner html
+    document.getElementById("angle").innerHTML = text;
 
 
 
