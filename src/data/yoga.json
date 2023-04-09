@@ -1,0 +1,58 @@
+[
+    {
+        "id": "1",
+        "name": "Push-ups",
+        "route": "push_up",
+        "intro": "Push-ups are a bodyweight exercise that involve lowering and raising the body using the arms, chest, and core muscles",
+        "steps": [
+            "Start in a plank position with your hands shoulder-width apart and your feet hip-width apart.",
+            "Lower your body by bending your elbows until your chest touches the ground.",
+            "Push your body back up to the starting position.",
+            "Keep your core engaged and your back straight throughout the exercise.",
+            "Avoid locking your elbows at the top of the movement.",
+            "If you're a beginner, start with modified pushups by keeping your knees on the ground"
+        ],
+        "precautions": [
+            "Avoid arching your back or sagging your hips during the exercise, as this can put unnecessary strain on your lower back.",
+            "Keep your elbows close to your body to avoid putting excessive pressure on your shoulders."
+        ]
+    },
+    {
+        "id": "2",
+        "name": "Bicep curls",
+        "route": "bicep_curls",
+        "intro": " Bicep curls are an isolation exercise that target the biceps muscles, involving lifting weights in a controlled motion. Regularly performing these exercises can help improve upper body strength and muscle definition",
+        "steps": [
+            "Stand with your feet shoulder-width apart and hold a dumbbell in each hand with your palms facing up.",
+            "Slowly lift the weights towards your shoulders while keeping your elbows close to your body.",
+            "Pause briefly at the top of the movement and then lower the weights back down to the starting position.",
+            "Keep your core engaged and your back straight throughout the exercise.",
+            "Avoid swinging your arms or using momentum to lift the weights.",
+            "If you're a beginner, start with lighter weights and focus on proper form"
+        ],
+        "precautions": [
+            "Don't lift weights that are too heavy for you, as this can lead to injury.",
+            "Keep your wrists in a neutral position to avoid straining them.",
+            "Avoid jerking or swinging the weights, as this can cause you to lose control of the exercise and potentially injure yourself"
+        ]
+    },
+    {
+        "id": "3",
+        "name": "pull-ups",
+        "route": "pull_up",
+        "intro": "Pull-ups are a strength exercise that involve lifting the body by pulling up on a bar, targeting the back, biceps, and shoulders",
+        "steps": [
+            "Stand with your feet shoulder-width apart and hold a dumbbell in each hand with your palms facing up.",
+            "Slowly lift the weights towards your shoulders while keeping your elbows close to your body.",
+            "Pause briefly at the top of the movement and then lower the weights back down to the starting position.",
+            "Keep your core engaged and your back straight throughout the exercise.",
+            "Avoid swinging your arms or using momentum to lift the weights.",
+            "If you're a beginner, start with lighter weights and focus on proper form"
+        ],
+        "precautions": [
+            "If you have a history of shoulder injuries or pain, consult with a doctor before attempting pullups.",
+            "Don't use a grip that is too wide, as this can put excessive strain on your shoulders and wrists.",
+            "If you're unable to complete a full pullup, don't force it. Instead, start with a modified version of the exercise or use an assistive device."
+        ]
+    }
+]

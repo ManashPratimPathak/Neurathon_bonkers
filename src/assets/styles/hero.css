@@ -1,6 +1,6 @@
 .Hero{
     height: 100vh;
-    width: 70%;
+    width: 55%;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -28,7 +28,7 @@
 }
 
 
-.yoga_pic{
+.trainer_hero{
     max-height: 200px;
     max-width: 200px;
 }
@@ -36,7 +36,7 @@
 
 .hero_button button{
     background-color: transparent;
-    margin-top: 2rem;
+    margin-top: 1rem;
     transition: 350ms;
     border-radius: 8px;
     border: 1px solid white;

@@ -1,0 +1,11 @@
+.filePicker_button{
+    background-color: transparent;
+    border: solid 1px white;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    transition: 250ms;
+}
+
+.filePicker_button:hover{
+    transform: scale(0.95);
+}
