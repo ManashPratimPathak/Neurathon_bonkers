@@ -33,7 +33,10 @@ function PushUp(porps) {
           </ul>
         </div>
         <div className="excercise_right_content">
-          <FilePickerButton />
+          {/* <FilePickerButton /> */}
+          <Link to="/result/pushUpSample">
+            <button className='sample_button'>Select file</button>
+          </Link>
           <Link to="/result/pushUp">
             <button className='sample_button'>See sampled dataset</button>
           </Link>

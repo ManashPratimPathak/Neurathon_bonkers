@@ -10,6 +10,9 @@ import Chart from "./components/Chart";
 import ResultBicepCurl from "./components/resultBicepCurl";
 import ResultPullUp from "./components/resultPullUp";
 import ResultPushUp from "./components/resultPushUp";
+import PushUpSample from "./components/PushUpSample";
+import PullUpSample from "./components/PullUpSample";
+import BicepCurlSample from "./components/BicepCurlSample";
 
 function App() {
 
@@ -26,7 +29,9 @@ function App() {
           <Route exact path="/result/pullUp" element={<ResultPullUp />} />
           <Route exact path="/result/pushUp" element={<ResultPushUp />} />
           <Route exact path="/result/bicepCurl" element={<ResultBicepCurl />} />
-          {/* <Route exact path="/result/pushUpStart" element={<Practice />} /> */}
+          <Route exact path="/result/pushUpSample" element={<PushUpSample />} />
+          <Route exact path="/result/pullUpSample" element={<PullUpSample />} />
+          <Route exact path="/result/bicepCurlSample" element={<BicepCurlSample />} />
 
         </Routes>
       </BrowserRouter>
