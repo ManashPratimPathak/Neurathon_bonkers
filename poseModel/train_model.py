@@ -61,7 +61,8 @@ val_data = tf.data.Dataset.from_tensor_slices(
 
 # Train the model
 model.compile(optimizer=optimizer, loss=loss_fn, metrics=['accuracy'])
-history = model.fit(train_data, epochs=10, validation_data=val_data)
+history = model.fit(train_data.batch(32), epochs=50,
+                    validation_data=val_data.batch(32))
 
 # Plot the training and validation loss over time
 plt.plot(history.history['loss'])
