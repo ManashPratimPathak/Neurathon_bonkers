@@ -1,4 +1,5 @@
-.yoga_card{
+.yoga_card {
+    padding: 3rem;
     color: white;
     font-weight: 400;
     width: 15rem;
@@ -12,6 +13,6 @@
     transition: 350ms;
 }
 
-.yoga_card:hover{
+.yoga_card:hover {
     transform: scale(0.95);
 }

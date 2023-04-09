@@ -1,10 +1,10 @@
 import React from 'react'
 import './../assets/styles/yogaCard.css'
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom"
 
 function YogaCard(props) {
   return (
-   <Link to={`/${props.route}`}> <div key={props.id} className='yoga_card'>{props.name}</div></Link>
+    <Link to={`/${props.route}`}> <img key={props.id} src={props.imgpath} className='yoga_card' /></Link>
   )
 }
 

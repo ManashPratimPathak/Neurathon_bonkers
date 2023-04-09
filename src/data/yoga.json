@@ -3,6 +3,7 @@
         "id": "1",
         "name": "Push-ups",
         "route": "push_up",
+        "imgpath": "https://cdn-icons-png.flaticon.com/128/5147/5147050.png",
         "intro": "Push-ups are a bodyweight exercise that involve lowering and raising the body using the arms, chest, and core muscles",
         "steps": [
             "Start in a plank position with your hands shoulder-width apart and your feet hip-width apart.",
@@ -21,6 +22,7 @@
         "id": "2",
         "name": "Bicep curls",
         "route": "bicep_curls",
+        "imgpath": "https://cdn-icons-png.flaticon.com/128/9992/9992201.png",
         "intro": " Bicep curls are an isolation exercise that target the biceps muscles, involving lifting weights in a controlled motion. Regularly performing these exercises can help improve upper body strength and muscle definition",
         "steps": [
             "Stand with your feet shoulder-width apart and hold a dumbbell in each hand with your palms facing up.",
@@ -40,6 +42,7 @@
         "id": "3",
         "name": "pull-ups",
         "route": "pull_up",
+        "imgpath": "https://cdn-icons-png.flaticon.com/128/5147/5147107.png",
         "intro": "Pull-ups are a strength exercise that involve lifting the body by pulling up on a bar, targeting the back, biceps, and shoulders",
         "steps": [
             "Stand with your feet shoulder-width apart and hold a dumbbell in each hand with your palms facing up.",
