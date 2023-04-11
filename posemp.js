@@ -33,7 +33,7 @@ function onResultsPose(results) {
 
     var text = ""
     if (angle > 0 && angle < 10) {
-        console.log("good going")
+        console.log("Good going")
         text = "good going"
     } else {
         console.log("Maintain your body posture the posture")
